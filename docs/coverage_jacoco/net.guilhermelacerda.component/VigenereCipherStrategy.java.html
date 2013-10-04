@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>VigenereCipherStrategy.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="right"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo Code Coverage</a> &gt; <a href="index.html" class="el_package">net.guilhermelacerda.component</a> &gt; <span class="el_source">VigenereCipherStrategy.java</span></div><h1>VigenereCipherStrategy.java</h1><pre class="source lang-java linenums">package net.guilhermelacerda.component;
+
+class VigenereCipherStrategy extends CipherStrategy {
+    private String key;
+    private CipherType ct;
+    private static final int START_UPPERCASE = 65;
+    private static final int START_LOWERCASE = 97;
+    private static final int ALPHABET_LETTERS = 26;
+    private static final int ALPHABET_DIFF = 25;
+
+    protected VigenereCipherStrategy(Cipher cipher, String key) {
+<span class="fc" id="L12">        super(cipher);</span>
+<span class="fc" id="L13">        setKey(key);</span>
+<span class="fc" id="L14">    }</span>
+
+    public String getKey() {
+<span class="fc" id="L17">        return key;</span>
+    }
+
+    public void setKey(String key) {
+<span class="fc" id="L21">        this.key = key;</span>
+<span class="fc" id="L22">    }</span>
+
+    private void setCipherType(CipherType ct) {
+<span class="fc" id="L25">        this.ct = ct;</span>
+<span class="fc" id="L26">    }</span>
+
+    private CipherType getCipherType() {
+<span class="fc" id="L29">        return ct;</span>
+    }
+
+    @Override
+    public String encode() {
+<span class="fc" id="L34">        setCipherType(CipherType.CRIPT);</span>
+<span class="fc" id="L35">        return doRotate();</span>
+    }
+
+    @Override
+    public String decode() {
+<span class="fc" id="L40">        setCipherType(CipherType.DECRIPT);</span>
+<span class="fc" id="L41">        return doRotate();</span>
+    }
+
+    @Override
+    protected String doRotate() {
+<span class="fc" id="L46">        getCipher().setMessage(removeSpaces(getCipher().getMessage()));</span>
+<span class="fc" id="L47">        rotate();</span>
+
+<span class="fc" id="L49">        return getCipher().toString();</span>
+    }
+
+    private void rotate() {
+<span class="fc" id="L53">        String withoutSpaces = getCipher().getMessage();</span>
+<span class="fc" id="L54">        String newKey = generateNewKey();</span>
+
+<span class="fc bfc" id="L56" title="All 2 branches covered.">        for (int position = 0; position &lt; withoutSpaces.length(); position++) {</span>
+<span class="fc" id="L57">            char msgLetter = withoutSpaces.charAt(position);</span>
+<span class="fc" id="L58">            char keyLetter = newKey.charAt(position);</span>
+
+<span class="fc" id="L60">            getCipher().addLetter(getLetterFromGridVigenere(msgLetter, keyLetter), position);</span>
+        }
+<span class="fc" id="L62">    }</span>
+
+    private String removeSpaces(String msg) {
+<span class="fc" id="L65">        StringBuilder withoutSpaces = new StringBuilder();</span>
+<span class="fc bfc" id="L66" title="All 2 branches covered.">        for (int position = 0; position &lt; msg.length(); position++) {</span>
+<span class="fc" id="L67">            char letter = msg.charAt(position);</span>
+<span class="pc bpc" id="L68" title="1 of 2 branches missed.">            if (letter == ' ')</span>
+<span class="nc" id="L69">                continue;</span>
+<span class="fc" id="L70">            withoutSpaces.append(letter);</span>
+        }
+
+<span class="fc" id="L73">        return withoutSpaces.toString();</span>
+    }
+
+    private String generateNewKey() {
+<span class="fc" id="L77">        int lenKeyWithoutSpaces = removeSpaces(getKey()).length();</span>
+<span class="fc" id="L78">        int position = 0;</span>
+<span class="fc" id="L79">        int lenMessageWithoutSpaces = getCipher().getMessage().length();</span>
+<span class="fc" id="L80">        int count = Math.max(lenMessageWithoutSpaces, lenKeyWithoutSpaces);</span>
+<span class="fc" id="L81">        StringBuilder newKey = new StringBuilder();</span>
+
+<span class="fc bfc" id="L83" title="All 2 branches covered.">        for(int x = 0; x &lt; count; x++ ) {</span>
+<span class="fc" id="L84">            newKey.append(getKey().charAt(position));</span>
+<span class="fc" id="L85">            position++;</span>
+<span class="fc bfc" id="L86" title="All 2 branches covered.">            if (position == lenKeyWithoutSpaces)</span>
+<span class="fc" id="L87">                position = 0;</span>
+        }
+
+<span class="fc" id="L90">        return newKey.toString();</span>
+    }
+
+    private int getFactor(char letter) {
+<span class="fc" id="L94">        int factor = 0;</span>
+<span class="pc bpc" id="L95" title="1 of 2 branches missed.">        if (isUpperCase(letter)) factor = START_UPPERCASE;</span>
+<span class="pc bpc" id="L96" title="1 of 2 branches missed.">        if (isLowerCase(letter)) factor = START_LOWERCASE;</span>
+
+<span class="fc" id="L98">        return factor;</span>
+    }
+
+    private boolean isUpperCase(char letter) {
+<span class="pc bpc" id="L102" title="2 of 4 branches missed.">        return letter &gt;= 'A' &amp;&amp; letter &lt;= 'Z';</span>
+    }
+
+    private boolean isLowerCase(char letter) {
+<span class="pc bpc" id="L106" title="2 of 4 branches missed.">        return letter &gt;= 'a' &amp;&amp; letter &lt;= 'z';</span>
+    }
+
+    private char getLetterFromGridVigenere(char msgLetter, char keyLetter) {
+<span class="fc" id="L110">        int msgFactor = getFactor(msgLetter);</span>
+<span class="fc" id="L111">        int keyFactor = getFactor(keyLetter);</span>
+
+<span class="fc" id="L113">        return (char) calculateGridPosition(msgLetter, keyLetter, msgFactor,</span>
+                keyFactor);
+    }
+
+    private int calculateGridPosition(char msgLetter, char keyLetter,
+                                      int msgFactor, int keyFactor) {
+<span class="fc" id="L119">        int result = 0;</span>
+
+<span class="fc bfc" id="L121" title="All 2 branches covered.">        if (getCipherType() == CipherType.CRIPT) {</span>
+<span class="fc" id="L122">            result = msgLetter + keyLetter - keyFactor;</span>
+<span class="fc bfc" id="L123" title="All 2 branches covered.">            if (result &gt; (msgFactor + ALPHABET_DIFF))</span>
+<span class="fc" id="L124">                result -= ALPHABET_LETTERS;</span>
+        } else {
+<span class="fc" id="L126">            result = msgLetter - keyLetter + keyFactor;</span>
+<span class="fc bfc" id="L127" title="All 2 branches covered.">            if (result &lt; msgFactor)</span>
+<span class="fc" id="L128">                result += ALPHABET_LETTERS;</span>
+        }
+<span class="fc" id="L130">        return result;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.5.9.201207300726</span></div></body></html>

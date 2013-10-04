@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Code Coverage,net.guilhermelacerda.component,CaesarCipherStrategy,18,112,6,10,0,19,6,12,0,10
+JaCoCo Code Coverage,net.guilhermelacerda.component,Rot47CipherStrategy,0,25,0,0,0,4,0,3,0,3
+JaCoCo Code Coverage,net.guilhermelacerda.component,CipherType,9,29,0,0,0,2,2,2,2,2
+JaCoCo Code Coverage,net.guilhermelacerda.component,Rot13CipherStrategy,0,25,0,0,0,4,0,3,0,3
+JaCoCo Code Coverage,net.guilhermelacerda.component,VigenereCipherStrategy,6,227,7,21,1,58,7,23,0,16
+JaCoCo Code Coverage,net.guilhermelacerda.component,CipherStrategy,0,15,0,0,0,6,0,4,0,4
+JaCoCo Code Coverage,net.guilhermelacerda.component,Cipher,5,82,1,5,1,22,1,12,0,10
+JaCoCo Code Coverage,net.guilhermelacerda.component,RotCipherStrategy,4,109,4,10,1,18,5,10,1,7
+JaCoCo Code Coverage,net.guilhermelacerda.component,CipherFactory,3,33,0,0,2,4,1,4,1,4
+JaCoCo Code Coverage,net.guilhermelacerda.tests,CipherTest,6,47,0,0,2,13,1,6,1,6
+JaCoCo Code Coverage,net.guilhermelacerda.tests,VigenereCipherStrategyTest,0,21,0,0,0,7,0,3,0,3
+JaCoCo Code Coverage,net.guilhermelacerda.tests,CaesarCipherStrategyTest,0,19,0,0,0,7,0,3,0,3
+JaCoCo Code Coverage,net.guilhermelacerda.tests,AllTests,3,0,0,0,1,0,1,0,1,0
+JaCoCo Code Coverage,net.guilhermelacerda.tests,Rot47CipherStrategyTest,0,19,0,0,0,7,0,3,0,3
+JaCoCo Code Coverage,net.guilhermelacerda.tests,Rot13CipherStrategyTest,0,19,0,0,0,7,0,3,0,3

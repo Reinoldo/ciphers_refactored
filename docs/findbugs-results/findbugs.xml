@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="0" timestamp="1380567703533" analysisTimestamp="1380567703794" release="">
+  <Project projectName="">
+    <Jar>C:\JavaApps\IntelliJ\Ciphers_Refactored\out</Jar>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\out</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\JCSC.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\asm-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ccl.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\checkstyle-5.5-all.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma_ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\findbugs-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\gnu-regexp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoagent.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javacc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javancss.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jaxen-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jhbasic.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\junit-4.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.agent-0.5.9.201207300726.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.ant-0.5.9.201207300726.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.core-0.5.9.201207300726.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.report-0.5.9.201207300726.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\pmd-5.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\serializer.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\sonar-ant-task-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xalan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xercesImpl.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xml-apis.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xsltc.jar</AuxClasspathEntry>
+    <SrcDir>C:\JavaApps\IntelliJ\Ciphers_Refactored\src</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="net.guilhermelacerda.component.Cipher">
+      <SourceLine classname="net.guilhermelacerda.component.Cipher" start="8" end="54" sourcefile="Cipher.java" sourcepath="net/guilhermelacerda/component/Cipher.java"/>
+    </Class>
+    <Method classname="net.guilhermelacerda.component.Cipher" name="getCipheredMsg" signature="()[C" isStatic="false">
+      <SourceLine classname="net.guilhermelacerda.component.Cipher" start="22" end="22" startBytecode="0" endBytecode="46" sourcefile="Cipher.java" sourcepath="net/guilhermelacerda/component/Cipher.java"/>
+    </Method>
+    <Field classname="net.guilhermelacerda.component.Cipher" name="cipheredMsg" signature="[C" isStatic="false">
+      <SourceLine classname="net.guilhermelacerda.component.Cipher" sourcefile="Cipher.java" sourcepath="net/guilhermelacerda/component/Cipher.java"/>
+    </Field>
+    <SourceLine classname="net.guilhermelacerda.component.Cipher" start="22" end="22" startBytecode="4" endBytecode="4" sourcefile="Cipher.java" sourcepath="net/guilhermelacerda/component/Cipher.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 30 Sep 2013 16:01:43 -0300" total_classes="17" referenced_classes="44" total_bugs="1" total_size="316" num_packages="2" vm_version="23.6-b04" cpu_seconds="10.20" clock_seconds="4.67" peak_mbytes="93.08" alloc_mbytes="1342.25" gc_seconds="0.04" priority_2="1">
+    <PackageStats package="net.guilhermelacerda.component" total_bugs="1" total_types="11" total_size="244" priority_2="1">
+      <ClassStats class="net.guilhermelacerda.component.CaesarCipherStrategy" sourceFile="CaesarCipherStrategy.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.Cipher" sourceFile="Cipher.java" interface="false" size="37" bugs="1" priority_2="1"/>
+      <ClassStats class="net.guilhermelacerda.component.CipherAction" sourceFile="CipherAction.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.CipherFactory" sourceFile="CipherFactory.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.CipherStrategy" sourceFile="CipherStrategy.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.CipherType" sourceFile="CipherType.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.Rot13CipherStrategy" sourceFile="Rot13CipherStrategy.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.Rot47CipherStrategy" sourceFile="Rot47CipherStrategy.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.RotCipherStrategy" sourceFile="RotCipherStrategy.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.Rotatable" sourceFile="Rotatable.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.component.VigenereCipherStrategy" sourceFile="VigenereCipherStrategy.java" interface="false" size="82" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.guilhermelacerda.tests" total_bugs="0" total_types="6" total_size="72">
+      <ClassStats class="net.guilhermelacerda.tests.AllTests" sourceFile="AllTests.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.tests.CaesarCipherStrategyTest" sourceFile="CaesarCipherStrategyTest.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.tests.CipherTest" sourceFile="CipherTest.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.tests.Rot13CipherStrategyTest" sourceFile="Rot13CipherStrategyTest.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.tests.Rot47CipherStrategyTest" sourceFile="Rot47CipherStrategyTest.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="net.guilhermelacerda.tests.VigenereCipherStrategyTest" sourceFile="VigenereCipherStrategyTest.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="450" invocations="362" avgMicrosecondsPerInvocation="1243" maxMicrosecondsPerInvocation="43239" standardDeviationMircosecondsPerInvocation="3206"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="414" invocations="365" avgMicrosecondsPerInvocation="1135" maxMicrosecondsPerInvocation="17733" standardDeviationMircosecondsPerInvocation="2668"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="196" invocations="44" avgMicrosecondsPerInvocation="4464" maxMicrosecondsPerInvocation="75491" standardDeviationMircosecondsPerInvocation="12550"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="173" invocations="44" avgMicrosecondsPerInvocation="3934" maxMicrosecondsPerInvocation="77783" standardDeviationMircosecondsPerInvocation="14456"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="108" invocations="44" avgMicrosecondsPerInvocation="2475" maxMicrosecondsPerInvocation="29797" standardDeviationMircosecondsPerInvocation="5454"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="85" invocations="83" avgMicrosecondsPerInvocation="1024" maxMicrosecondsPerInvocation="39657" standardDeviationMircosecondsPerInvocation="4286"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="77" invocations="83" avgMicrosecondsPerInvocation="931" maxMicrosecondsPerInvocation="11417" standardDeviationMircosecondsPerInvocation="1452"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="77" invocations="140" avgMicrosecondsPerInvocation="550" maxMicrosecondsPerInvocation="7732" standardDeviationMircosecondsPerInvocation="971"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="76" invocations="331" avgMicrosecondsPerInvocation="231" maxMicrosecondsPerInvocation="5621" standardDeviationMircosecondsPerInvocation="506"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="73" invocations="83" avgMicrosecondsPerInvocation="882" maxMicrosecondsPerInvocation="18531" standardDeviationMircosecondsPerInvocation="2075"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="71" invocations="83" avgMicrosecondsPerInvocation="866" maxMicrosecondsPerInvocation="3966" standardDeviationMircosecondsPerInvocation="841"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="70" invocations="83" avgMicrosecondsPerInvocation="852" maxMicrosecondsPerInvocation="6112" standardDeviationMircosecondsPerInvocation="1081"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="68" invocations="55" avgMicrosecondsPerInvocation="1250" maxMicrosecondsPerInvocation="32753" standardDeviationMircosecondsPerInvocation="4578"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="68" invocations="44" avgMicrosecondsPerInvocation="1560" maxMicrosecondsPerInvocation="30991" standardDeviationMircosecondsPerInvocation="4869"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="68" invocations="83" avgMicrosecondsPerInvocation="819" maxMicrosecondsPerInvocation="13251" standardDeviationMircosecondsPerInvocation="1641"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="60" invocations="88" avgMicrosecondsPerInvocation="689" maxMicrosecondsPerInvocation="48296" standardDeviationMircosecondsPerInvocation="5107"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="57" invocations="44" avgMicrosecondsPerInvocation="1304" maxMicrosecondsPerInvocation="27519" standardDeviationMircosecondsPerInvocation="4212"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="53" invocations="44" avgMicrosecondsPerInvocation="1219" maxMicrosecondsPerInvocation="17143" standardDeviationMircosecondsPerInvocation="2862"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="53" invocations="17" avgMicrosecondsPerInvocation="3117" maxMicrosecondsPerInvocation="50356" standardDeviationMircosecondsPerInvocation="11810"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,268 @@
+
+<project name="Ciphers_Refactored" basedir="." default="all-in-one" xmlns:jacoco="antlib:org.jacoco.ant">
+
+    <!--
+     Cipher Project
+     Coding By Example
+     Author: Guilherme Lacerda
+     -->
+    <property file="ciphers.properties"/>
+
+    <property name="sonar.jdbc.url" value="${sonar.jdbc.url}" />
+    <property name="sonar.jdbc.driverClassName" value="${sonar.jdbc.driver}" />
+    <property name="sonar.jdbc.username" value="${sonar.jdbc.user}" />
+    <property name="sonar.jdbc.password" value="${sonar.jdbc.password}" />
+    <property name="sonar.host.url" value="${sonar.host.url}" />
+    <property name="sonar.dynamicAnalysis" value="${sonar.dynamic.analysis}" />
+    <property name="sonar.core.codeCoveragePlugin" value="${sonar.core.codecoverage}" />
+    <property name="sonar.surefire.reportsPath" value="${test.report.dir}" />
+    <property name="sonar.jacoco.reportPath" value="${jacoco.file}" />
+
+    <target name="all-light" depends="clean, start, compile, test, gen-test-report,
+            gen-code-coverage, code-analysis, duplicated-code, code-standards,
+            code-metrics-jcsc, code-metrics-javancss"/>
+
+    <target name="all-with-findbugs" depends="clean, start, compile, test, gen-test-report,
+            gen-code-coverage, code-analysis, duplicated-code, code-standards,
+            code-metrics-jcsc, code-metrics-javancss, code-analysis-findbugs"/>
+
+    <target name="all-in-one" depends="clean, start, compile, test, gen-test-report,
+            gen-code-coverage, code-analysis, duplicated-code, code-standards,
+            code-analysis-findbugs, metrics-with-sonar"/>
+
+    <path id="project.classpath">
+        <pathelement location="${bin.dir}"/>
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="clean" description="clean folders and files of this project">
+        <echo message="Deleting folders/files..."/>
+        <delete dir="${bin.dir}"/>
+        <delete dir="${docs.dir}"/>
+    </target>
+
+    <target name="start" description="Create project´s folders">
+        <echo message="Creating folders..."/>
+        <mkdir dir="${bin.dir}"/>
+        <mkdir dir="${docs.dir}"/>
+        <mkdir dir="${jacoco.report.dir}"/>
+        <mkdir dir="${test.report.dir}"/>
+        <mkdir dir="${pmd.report.dir}"/>
+        <mkdir dir="${checkstyle.report.dir}"/>
+        <!-- <mkdir dir="${jcsc.report.dir}"/>
+        <mkdir dir="${javancss.report.dir}"/> -->
+        <mkdir dir="${findbugs.report.dir}"/>
+    </target>
+
+    <!--
+         Specific tasks definitions
+     -->
+    <taskdef name="junit" classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef resource="checkstyletask.properties">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef name="cpd" classname="net.sourceforge.pmd.cpd.CPDTask">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef name="jcsc" classname="rj.tools.jcsc.ant.JCSCTask">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef name="javancss" classname="javancss.JavancssAntTask">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask">
+        <classpath refid="project.classpath"/>
+    </taskdef>
+
+    <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+        <classpath refid="project.classpath" />
+    </taskdef>
+
+    <!--
+        Sources and Tests Compiling
+    -->
+    <target name="compile" depends="start" description="Compile classes">
+        <echo message="Compiling classes..."/>
+        <javac debug="on" destdir="${bin.dir}" srcdir="${src.dir}" includeantruntime="false">
+            <classpath refid="project.classpath"/>
+        </javac>
+    </target>
+
+    <target name="compile-tests" description="Compile tests">
+        <echo message="Compiling test classes..."/>
+        <javac debug="on" srcdir="${test.dir}" destdir="${bin.dir}" includeantruntime="false">
+            <classpath refid="project.classpath"/>
+        </javac>
+    </target>
+
+    <!--
+         Run tests with JUnit
+     -->
+    <target name="test" depends="compile, compile-tests" description="Run unit tests">
+        <echo message="Running tests..."/>
+        <jacoco:coverage destfile="${jacoco.file}">
+            <junit printsummary="yes" haltonfailure="yes" fork="yes" forkmode="once">
+                <formatter type="xml"/>
+                <classpath refid="project.classpath"/>
+                <batchtest fork="yes" todir="${test.report.dir}">
+                    <fileset dir="${test.dir}">
+                        <include name="**/*Test.java"/>
+                    </fileset>
+                </batchtest>
+            </junit>
+        </jacoco:coverage>
+    </target>
+
+    <target name="gen-test-report" description="Generate Test Report based on JUnit">
+        <echo message="Generating test report..." />
+        <junitreport todir="${test.report.dir}">
+            <fileset dir="${test.report.dir}">
+                <include name="TEST*.xml" />
+            </fileset>
+            <report format="frames" todir="${test.report.html.dir}" />
+        </junitreport>
+    </target>
+
+    <!--
+         Code coverage with JaCoCo
+     -->
+    <target name="gen-code-coverage" depends="test" description="Generate Code Coverage Report with JaCoCo">
+        <echo message="Generating code coverage report..." />
+        <jacoco:report>
+            <executiondata>
+                <file file="${jacoco.file}" />
+            </executiondata>
+
+            <structure name="JaCoCo Code Coverage">
+                <classfiles>
+                    <fileset dir="${bin.dir}" />
+                </classfiles>
+                <sourcefiles encoding="UTF-8">
+                    <fileset dir="${src.dir}" />
+                </sourcefiles>
+            </structure>
+
+            <html destdir="${jacoco.report.dir}" />
+            <csv destfile="${jacoco.report.dir}/report.csv" />
+            <xml destfile="${jacoco.report.dir}/report.xml" />
+        </jacoco:report>
+    </target>
+
+    <!--
+         Code Analysis with PMD/CPD
+     -->
+    <target name="code-analysis" description="Code analysis with PMD/CPD">
+        <echo message="Verifying code quality..." />
+        <pmd rulesetfiles="${pmd.ruleset.file}">
+            <formatter type="net.sourceforge.pmd.renderers.SummaryHTMLRenderer" toFile="${pmd.report.dir}/pmd.html" />
+            <formatter type="net.sourceforge.pmd.renderers.XMLRenderer" toFile="${pmd.report.dir}/pmd.xml" />
+            <fileset dir="${src.dir}" includes="**/*.java" />
+            <fileset dir="${test.dir}" includes="**/*.java" />
+        </pmd>
+    </target>
+
+    <target name="duplicated-code">
+        <cpd minimumTokenCount="300" outputFile="${pmd.report.dir}/cpd.txt">
+            <fileset dir="${src.dir}" includes="**/*.java" />
+            <fileset dir="${test.dir}" includes="**/*.java" />
+        </cpd>
+    </target>
+
+    <!--
+         Code standards with Checkstyle
+     -->
+    <target name="code-standards" description="Code standards analysis with Checkstyle">
+        <echo message="Verifying code standards..." />
+        <checkstyle config="${checkstyle.conventions.dir}/sun_checks.xml"
+                    failureProperty="checkstyle.failure" failOnViolation="false">
+            <formatter type="xml" tofile="${checkstyle.report.dir}/checkstyle_report.xml" />
+            <fileset dir="${src.dir}" includes="**/*.java" />
+        </checkstyle>
+        <xslt style="${checkstyle.conventions.dir}/checkstyle-noframes.xsl"
+              in="${checkstyle.report.dir}/checkstyle_report.xml" out="${checkstyle.report.dir}/checkstyle_report.html" >
+            <classpath refid="project.classpath" />
+        </xslt>
+    </target>
+
+    <!--
+        Another code analysis with JCSC
+    -->
+    <target name="code-metrics-jcsc" description="Code metrics analysis with JCSC">
+        <echo message="Verifying code metrics (JCSC)..." />
+        <jcsc destdir="${jcsc.report.dir}"
+              ignoretestseverity="4">
+            <fileset dir="${src.dir}" includes="**/*.java"/>
+        </jcsc>
+    </target>
+
+    <!--
+        Another code metrics with JavaNCSS
+    -->
+    <target name="code-metrics-javancss" description="Code metrics analysis with JavaNCSS">
+        <echo message="Verifying code metrics (JCSC)..." />
+        <javancss srcdir="${src.dir}"
+                  generateReport="true"
+                  outputfile="${javancss.report.dir}/javancss_metrics.xml"
+                  format="xml"/>
+    </target>
+
+    <!--
+        Another code analysis with FindBugs
+    -->
+    <target name="code-analysis-findbugs" description="Code analysis with FindBugs">
+        <echo message="Verifying code bugs (FindBugs)..." />
+        <findbugs home="${findbugs.home}"
+                  output="xml"
+                  outputFile="${findbugs.report.dir}/findbugs.xml">
+            <auxclasspath>
+                <pathelement location="${bin.dir}"/>
+                <fileset dir="${lib.dir}">
+                    <include name="*.jar" />
+                </fileset>
+            </auxclasspath>
+            <sourcePath path="${src.dir}" />
+            <class location="${bin.dir}" />
+        </findbugs>
+    </target>
+
+    <!--
+         Metrics view with Sonar
+     -->
+    <target name="metrics-with-sonar" description="Generate metrics with Sonar">
+        <echo message="Generating metrics (Sonar)..." />
+        <sonar:sonar workDir="${sonar.dir}"
+                     key="net.guilhermelacerda.ciphers:ciphers"
+                     version="1.0-SNAPSHOT" xmlns:sonar="antlib:org.sonar.ant">
+            <sources>
+                <path location="${src.dir}" />
+            </sources>
+            <!-- <tests>
+                <path location="${test.dir}" />
+            </tests> -->
+            <binaries>
+                <path location="${bin.dir}" />
+            </binaries>
+            <libraries>
+                <path refid="project.classpath" />
+            </libraries>
+        </sonar:sonar>
+    </target>
+
+</project>

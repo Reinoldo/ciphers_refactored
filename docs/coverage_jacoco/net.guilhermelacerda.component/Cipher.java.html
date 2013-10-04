@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Cipher.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="right"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo Code Coverage</a> &gt; <a href="index.html" class="el_package">net.guilhermelacerda.component</a> &gt; <span class="el_source">Cipher.java</span></div><h1>Cipher.java</h1><pre class="source lang-java linenums">package net.guilhermelacerda.component;
+
+public class Cipher {
+    private String message;
+    private char[] cipheredMsg;
+    private int asciiCode;
+
+<span class="fc" id="L8">    public Cipher(String message) {</span>
+<span class="fc" id="L9">        setMessage(message);</span>
+<span class="fc" id="L10">    }</span>
+
+    public String getMessage() {
+<span class="fc" id="L13">        return message;</span>
+    }
+
+    public void setMessage(String message) {
+<span class="fc" id="L17">        this.message = message;</span>
+<span class="fc" id="L18">        cipheredMsg = new char[this.getMessage().length()];</span>
+<span class="fc" id="L19">    }</span>
+
+    public char[] getCipheredMsg() {
+<span class="fc" id="L22">        return cipheredMsg;</span>
+    }
+
+    public int getAsciiCode() {
+<span class="fc" id="L26">        return asciiCode;</span>
+    }
+
+    public void setAsciiCode(int asciiCode) {
+<span class="fc" id="L30">        this.asciiCode = asciiCode;</span>
+<span class="fc" id="L31">    }</span>
+
+    public void addLetter(char letter, int position) {
+<span class="fc bfc" id="L34" title="All 2 branches covered.">        if (position &gt; cipheredMsg.length)</span>
+<span class="fc" id="L35">            throw new IndexOutOfBoundsException(&quot;invalid position for array char...&quot;);</span>
+<span class="fc" id="L36">        cipheredMsg[position] = letter;</span>
+<span class="fc" id="L37">    }</span>
+
+    public char getLetterFrom(int position) {
+<span class="pc bpc" id="L40" title="1 of 2 branches missed.">        if (position &gt; cipheredMsg.length)</span>
+<span class="nc" id="L41">            throw new IndexOutOfBoundsException(&quot;invalid position for array char...&quot;);</span>
+<span class="fc" id="L42">        return cipheredMsg[position];</span>
+    }
+
+    public char[] getMessageToChar() {
+<span class="fc" id="L46">        return getMessage().toCharArray();</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="fc" id="L51">        StringBuilder msg = new StringBuilder();</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">        for (int x = 0; x &lt; this.getCipheredMsg().length; x++)</span>
+<span class="fc" id="L53">            msg.append(this.cipheredMsg[x]);</span>
+<span class="fc" id="L54">        return msg.toString();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.5.9.201207300726</span></div></body></html>

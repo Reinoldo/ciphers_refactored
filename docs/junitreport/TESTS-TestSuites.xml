@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Note-Dell" id="0" name="CaesarCipherStrategyTest" package="net.guilhermelacerda.tests" tests="2" time="0.45" timestamp="2013-09-30T19:01:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="checkstyle.conventions.dir" value="lib/conventions" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sonar.jacoco.reportPath" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="sun.boot.class.path" value="C:\jdk1.7\jre\lib\resources.jar;C:\jdk1.7\jre\lib\rt.jar;C:\jdk1.7\jre\lib\sunrsasign.jar;C:\jdk1.7\jre\lib\jsse.jar;C:\jdk1.7\jre\lib\jce.jar;C:\jdk1.7\jre\lib\charsets.jar;C:\jdk1.7\jre\lib\jfr.jar;C:\jdk1.7\jre\classes" />
+
+          <property name="findbugs.home" value="c:/findbugs" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sonar.dir" value="docs/sonar" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant" />
+
+          <property name="java.runtime.version" value="1.7.0_11-b21" />
+
+          <property name="sonar.core.codeCoveragePlugin" value="jacoco" />
+
+          <property name="javancss.report.dir" value="docs/javancss-results" />
+
+          <property name="sonar.core.codecoverage" value="jacoco" />
+
+          <property name="sonar.jdbc.password" value="sonar" />
+
+          <property name="user.name" value="Guilherme" />
+
+          <property name="sonar.surefire.reportsPath" value="docs/junitreport" />
+
+          <property name="ant.file.Ciphers_Refactored" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="sonar.jdbc.user" value="sonar" />
+
+          <property name="user.language" value="pt" />
+
+          <property name="test.report.dir" value="docs/junitreport" />
+
+          <property name="sun.boot.library.path" value="C:\jdk1.7\jre\bin" />
+
+          <property name="ant.project.default-target" value="all-in-one" />
+
+          <property name="checkstyle.report.dir" value="docs/conventions" />
+
+          <property name="ant.project.name" value="Ciphers_Refactored" />
+
+          <property name="java.version" value="1.7.0_11" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="jacoco.report.dir" value="docs/coverage_jacoco/" />
+
+          <property name="sonar.host.url" value="http://localhost:9000" />
+
+          <property name="java.endorsed.dirs" value="C:\jdk1.7\jre\lib\endorsed" />
+
+          <property name="sonar.jdbc.username" value="sonar" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="jcsc.rules.dir" value="lib/jcsc-rules" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="BR" />
+
+          <property name="java.home" value="C:\jdk1.7\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file.type.Ciphers_Refactored" value="file" />
+
+          <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="23.6-b04" />
+
+          <property name="jcsc.report.dir" value="docs/jcsc-results" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib" />
+
+          <property name="sonar.jdbc.driver" value="com.mysql.jdbc.Driver" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="suite.tests" value="net.guilhermelacerda.tests.AllTests" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Guilherme" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="src" />
+
+          <property name="java.library.path" value="C:\jdk1.7\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\bin\..\.\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;;C:\jdk1.7\bin;C:\xampp\php;c:\ant\bin;c:\maven\bin;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;c:\program files (x86)\jetbrains\intellij idea community edition 12.1\jre\jre\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="bin.dir" value="out" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="java.class.path" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\out;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\JCSC.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit4.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\asm-3.2.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ccl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\checkstyle-5.5-all.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma_ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\findbugs-ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\gnu-regexp.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoagent.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javacc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javancss.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jaxen-1.1.1.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jhbasic.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\junit-4.9.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.agent-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.ant-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.core-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.report-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\pmd-5.0.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\serializer.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\sonar-ant-task-1.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xalan.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xercesImpl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xml-apis.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xsltc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored;c:\jdk1.7\jars;c:\pmd\lib;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-junit.jar;C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junittestcases4910071616260954608.properties filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JavaApps\IntelliJ\Ciphers_Refactored\docs\junitreport\IGNORETHIS.xml crashfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junitvmwatcher7750659676146689968.properties propsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junit7980038219306604136.properties" />
+
+          <property name="jacoco.file" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="test.report.html.dir" value="docs/junitreport/html" />
+
+          <property name="pmd.ruleset.file" value="lib/pmd-rules/all-java.xml" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="pmd.report.dir" value="docs/code-analysis" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sonar.dynamic.analysis" value="reuseReports" />
+
+          <property name="java.io.tmpdir" value="C:\Users\GUILHE~1\AppData\Local\Temp\" />
+
+          <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;amp;characterEncoding=utf8" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="sonar.dynamicAnalysis" value="reuseReports" />
+
+          <property name="java.ext.dirs" value="C:\jdk1.7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="findbugs.report.dir" value="docs/findbugs-results" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all-in-one" />
+
+      </properties>
+
+      <testcase classname="net.guilhermelacerda.tests.CaesarCipherStrategyTest" name="shouldReturnTest" time="0.025" />
+
+      <testcase classname="net.guilhermelacerda.tests.CaesarCipherStrategyTest" name="shouldReturnWhvw" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Note-Dell" id="1" name="CipherTest" package="net.guilhermelacerda.tests" tests="5" time="0.024" timestamp="2013-09-30T19:01:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="checkstyle.conventions.dir" value="lib/conventions" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sonar.jacoco.reportPath" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="sun.boot.class.path" value="C:\jdk1.7\jre\lib\resources.jar;C:\jdk1.7\jre\lib\rt.jar;C:\jdk1.7\jre\lib\sunrsasign.jar;C:\jdk1.7\jre\lib\jsse.jar;C:\jdk1.7\jre\lib\jce.jar;C:\jdk1.7\jre\lib\charsets.jar;C:\jdk1.7\jre\lib\jfr.jar;C:\jdk1.7\jre\classes" />
+
+          <property name="findbugs.home" value="c:/findbugs" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sonar.dir" value="docs/sonar" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant" />
+
+          <property name="java.runtime.version" value="1.7.0_11-b21" />
+
+          <property name="sonar.core.codeCoveragePlugin" value="jacoco" />
+
+          <property name="javancss.report.dir" value="docs/javancss-results" />
+
+          <property name="sonar.core.codecoverage" value="jacoco" />
+
+          <property name="sonar.jdbc.password" value="sonar" />
+
+          <property name="user.name" value="Guilherme" />
+
+          <property name="sonar.surefire.reportsPath" value="docs/junitreport" />
+
+          <property name="ant.file.Ciphers_Refactored" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="sonar.jdbc.user" value="sonar" />
+
+          <property name="user.language" value="pt" />
+
+          <property name="test.report.dir" value="docs/junitreport" />
+
+          <property name="sun.boot.library.path" value="C:\jdk1.7\jre\bin" />
+
+          <property name="ant.project.default-target" value="all-in-one" />
+
+          <property name="checkstyle.report.dir" value="docs/conventions" />
+
+          <property name="ant.project.name" value="Ciphers_Refactored" />
+
+          <property name="java.version" value="1.7.0_11" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="jacoco.report.dir" value="docs/coverage_jacoco/" />
+
+          <property name="sonar.host.url" value="http://localhost:9000" />
+
+          <property name="java.endorsed.dirs" value="C:\jdk1.7\jre\lib\endorsed" />
+
+          <property name="sonar.jdbc.username" value="sonar" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="jcsc.rules.dir" value="lib/jcsc-rules" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="BR" />
+
+          <property name="java.home" value="C:\jdk1.7\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file.type.Ciphers_Refactored" value="file" />
+
+          <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="23.6-b04" />
+
+          <property name="jcsc.report.dir" value="docs/jcsc-results" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib" />
+
+          <property name="sonar.jdbc.driver" value="com.mysql.jdbc.Driver" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="suite.tests" value="net.guilhermelacerda.tests.AllTests" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Guilherme" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="src" />
+
+          <property name="java.library.path" value="C:\jdk1.7\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\bin\..\.\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;;C:\jdk1.7\bin;C:\xampp\php;c:\ant\bin;c:\maven\bin;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;c:\program files (x86)\jetbrains\intellij idea community edition 12.1\jre\jre\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="bin.dir" value="out" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="java.class.path" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\out;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\JCSC.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit4.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\asm-3.2.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ccl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\checkstyle-5.5-all.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma_ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\findbugs-ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\gnu-regexp.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoagent.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javacc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javancss.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jaxen-1.1.1.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jhbasic.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\junit-4.9.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.agent-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.ant-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.core-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.report-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\pmd-5.0.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\serializer.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\sonar-ant-task-1.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xalan.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xercesImpl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xml-apis.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xsltc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored;c:\jdk1.7\jars;c:\pmd\lib;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-junit.jar;C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junittestcases4910071616260954608.properties filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JavaApps\IntelliJ\Ciphers_Refactored\docs\junitreport\IGNORETHIS.xml crashfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junitvmwatcher7750659676146689968.properties propsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junit7980038219306604136.properties" />
+
+          <property name="jacoco.file" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="test.report.html.dir" value="docs/junitreport/html" />
+
+          <property name="pmd.ruleset.file" value="lib/pmd-rules/all-java.xml" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="pmd.report.dir" value="docs/code-analysis" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sonar.dynamic.analysis" value="reuseReports" />
+
+          <property name="java.io.tmpdir" value="C:\Users\GUILHE~1\AppData\Local\Temp\" />
+
+          <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;amp;characterEncoding=utf8" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="sonar.dynamicAnalysis" value="reuseReports" />
+
+          <property name="java.ext.dirs" value="C:\jdk1.7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="findbugs.report.dir" value="docs/findbugs-results" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all-in-one" />
+
+      </properties>
+
+      <testcase classname="net.guilhermelacerda.tests.CipherTest" name="testGetMessage" time="0.0" />
+
+      <testcase classname="net.guilhermelacerda.tests.CipherTest" name="testGetAsciiCode" time="0.0" />
+
+      <testcase classname="net.guilhermelacerda.tests.CipherTest" name="testAddAndGetLetter" time="0.001" />
+
+      <testcase classname="net.guilhermelacerda.tests.CipherTest" name="testAddLetterOutOfBounds" time="0.0" />
+
+      <testcase classname="net.guilhermelacerda.tests.CipherTest" name="testGetMessageToChar" time="0.004" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Note-Dell" id="2" name="Rot13CipherStrategyTest" package="net.guilhermelacerda.tests" tests="2" time="0.011" timestamp="2013-09-30T19:01:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="checkstyle.conventions.dir" value="lib/conventions" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sonar.jacoco.reportPath" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="sun.boot.class.path" value="C:\jdk1.7\jre\lib\resources.jar;C:\jdk1.7\jre\lib\rt.jar;C:\jdk1.7\jre\lib\sunrsasign.jar;C:\jdk1.7\jre\lib\jsse.jar;C:\jdk1.7\jre\lib\jce.jar;C:\jdk1.7\jre\lib\charsets.jar;C:\jdk1.7\jre\lib\jfr.jar;C:\jdk1.7\jre\classes" />
+
+          <property name="findbugs.home" value="c:/findbugs" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sonar.dir" value="docs/sonar" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant" />
+
+          <property name="java.runtime.version" value="1.7.0_11-b21" />
+
+          <property name="sonar.core.codeCoveragePlugin" value="jacoco" />
+
+          <property name="javancss.report.dir" value="docs/javancss-results" />
+
+          <property name="sonar.core.codecoverage" value="jacoco" />
+
+          <property name="sonar.jdbc.password" value="sonar" />
+
+          <property name="user.name" value="Guilherme" />
+
+          <property name="sonar.surefire.reportsPath" value="docs/junitreport" />
+
+          <property name="ant.file.Ciphers_Refactored" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="sonar.jdbc.user" value="sonar" />
+
+          <property name="user.language" value="pt" />
+
+          <property name="test.report.dir" value="docs/junitreport" />
+
+          <property name="sun.boot.library.path" value="C:\jdk1.7\jre\bin" />
+
+          <property name="ant.project.default-target" value="all-in-one" />
+
+          <property name="checkstyle.report.dir" value="docs/conventions" />
+
+          <property name="ant.project.name" value="Ciphers_Refactored" />
+
+          <property name="java.version" value="1.7.0_11" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="jacoco.report.dir" value="docs/coverage_jacoco/" />
+
+          <property name="sonar.host.url" value="http://localhost:9000" />
+
+          <property name="java.endorsed.dirs" value="C:\jdk1.7\jre\lib\endorsed" />
+
+          <property name="sonar.jdbc.username" value="sonar" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="jcsc.rules.dir" value="lib/jcsc-rules" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="BR" />
+
+          <property name="java.home" value="C:\jdk1.7\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file.type.Ciphers_Refactored" value="file" />
+
+          <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="23.6-b04" />
+
+          <property name="jcsc.report.dir" value="docs/jcsc-results" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib" />
+
+          <property name="sonar.jdbc.driver" value="com.mysql.jdbc.Driver" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="suite.tests" value="net.guilhermelacerda.tests.AllTests" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Guilherme" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="src" />
+
+          <property name="java.library.path" value="C:\jdk1.7\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\bin\..\.\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;;C:\jdk1.7\bin;C:\xampp\php;c:\ant\bin;c:\maven\bin;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;c:\program files (x86)\jetbrains\intellij idea community edition 12.1\jre\jre\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="bin.dir" value="out" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="java.class.path" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\out;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\JCSC.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit4.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\asm-3.2.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ccl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\checkstyle-5.5-all.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma_ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\findbugs-ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\gnu-regexp.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoagent.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javacc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javancss.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jaxen-1.1.1.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jhbasic.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\junit-4.9.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.agent-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.ant-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.core-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.report-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\pmd-5.0.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\serializer.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\sonar-ant-task-1.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xalan.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xercesImpl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xml-apis.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xsltc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored;c:\jdk1.7\jars;c:\pmd\lib;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-junit.jar;C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junittestcases4910071616260954608.properties filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JavaApps\IntelliJ\Ciphers_Refactored\docs\junitreport\IGNORETHIS.xml crashfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junitvmwatcher7750659676146689968.properties propsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junit7980038219306604136.properties" />
+
+          <property name="jacoco.file" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="test.report.html.dir" value="docs/junitreport/html" />
+
+          <property name="pmd.ruleset.file" value="lib/pmd-rules/all-java.xml" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="pmd.report.dir" value="docs/code-analysis" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sonar.dynamic.analysis" value="reuseReports" />
+
+          <property name="java.io.tmpdir" value="C:\Users\GUILHE~1\AppData\Local\Temp\" />
+
+          <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;amp;characterEncoding=utf8" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="sonar.dynamicAnalysis" value="reuseReports" />
+
+          <property name="java.ext.dirs" value="C:\jdk1.7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="findbugs.report.dir" value="docs/findbugs-results" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all-in-one" />
+
+      </properties>
+
+      <testcase classname="net.guilhermelacerda.tests.Rot13CipherStrategyTest" name="shouldReturnTest" time="0.0" />
+
+      <testcase classname="net.guilhermelacerda.tests.Rot13CipherStrategyTest" name="shouldReturnGrfg" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Note-Dell" id="3" name="Rot47CipherStrategyTest" package="net.guilhermelacerda.tests" tests="2" time="0.009" timestamp="2013-09-30T19:01:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="checkstyle.conventions.dir" value="lib/conventions" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sonar.jacoco.reportPath" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="sun.boot.class.path" value="C:\jdk1.7\jre\lib\resources.jar;C:\jdk1.7\jre\lib\rt.jar;C:\jdk1.7\jre\lib\sunrsasign.jar;C:\jdk1.7\jre\lib\jsse.jar;C:\jdk1.7\jre\lib\jce.jar;C:\jdk1.7\jre\lib\charsets.jar;C:\jdk1.7\jre\lib\jfr.jar;C:\jdk1.7\jre\classes" />
+
+          <property name="findbugs.home" value="c:/findbugs" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sonar.dir" value="docs/sonar" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant" />
+
+          <property name="java.runtime.version" value="1.7.0_11-b21" />
+
+          <property name="sonar.core.codeCoveragePlugin" value="jacoco" />
+
+          <property name="javancss.report.dir" value="docs/javancss-results" />
+
+          <property name="sonar.core.codecoverage" value="jacoco" />
+
+          <property name="sonar.jdbc.password" value="sonar" />
+
+          <property name="user.name" value="Guilherme" />
+
+          <property name="sonar.surefire.reportsPath" value="docs/junitreport" />
+
+          <property name="ant.file.Ciphers_Refactored" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="sonar.jdbc.user" value="sonar" />
+
+          <property name="user.language" value="pt" />
+
+          <property name="test.report.dir" value="docs/junitreport" />
+
+          <property name="sun.boot.library.path" value="C:\jdk1.7\jre\bin" />
+
+          <property name="ant.project.default-target" value="all-in-one" />
+
+          <property name="checkstyle.report.dir" value="docs/conventions" />
+
+          <property name="ant.project.name" value="Ciphers_Refactored" />
+
+          <property name="java.version" value="1.7.0_11" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="jacoco.report.dir" value="docs/coverage_jacoco/" />
+
+          <property name="sonar.host.url" value="http://localhost:9000" />
+
+          <property name="java.endorsed.dirs" value="C:\jdk1.7\jre\lib\endorsed" />
+
+          <property name="sonar.jdbc.username" value="sonar" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="jcsc.rules.dir" value="lib/jcsc-rules" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="BR" />
+
+          <property name="java.home" value="C:\jdk1.7\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file.type.Ciphers_Refactored" value="file" />
+
+          <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="23.6-b04" />
+
+          <property name="jcsc.report.dir" value="docs/jcsc-results" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib" />
+
+          <property name="sonar.jdbc.driver" value="com.mysql.jdbc.Driver" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="suite.tests" value="net.guilhermelacerda.tests.AllTests" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Guilherme" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="src" />
+
+          <property name="java.library.path" value="C:\jdk1.7\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\bin\..\.\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;;C:\jdk1.7\bin;C:\xampp\php;c:\ant\bin;c:\maven\bin;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;c:\program files (x86)\jetbrains\intellij idea community edition 12.1\jre\jre\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="bin.dir" value="out" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="java.class.path" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\out;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\JCSC.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit4.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\asm-3.2.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ccl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\checkstyle-5.5-all.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma_ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\findbugs-ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\gnu-regexp.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoagent.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javacc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javancss.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jaxen-1.1.1.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jhbasic.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\junit-4.9.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.agent-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.ant-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.core-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.report-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\pmd-5.0.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\serializer.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\sonar-ant-task-1.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xalan.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xercesImpl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xml-apis.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xsltc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored;c:\jdk1.7\jars;c:\pmd\lib;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-junit.jar;C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junittestcases4910071616260954608.properties filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JavaApps\IntelliJ\Ciphers_Refactored\docs\junitreport\IGNORETHIS.xml crashfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junitvmwatcher7750659676146689968.properties propsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junit7980038219306604136.properties" />
+
+          <property name="jacoco.file" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="test.report.html.dir" value="docs/junitreport/html" />
+
+          <property name="pmd.ruleset.file" value="lib/pmd-rules/all-java.xml" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="pmd.report.dir" value="docs/code-analysis" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sonar.dynamic.analysis" value="reuseReports" />
+
+          <property name="java.io.tmpdir" value="C:\Users\GUILHE~1\AppData\Local\Temp\" />
+
+          <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;amp;characterEncoding=utf8" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="sonar.dynamicAnalysis" value="reuseReports" />
+
+          <property name="java.ext.dirs" value="C:\jdk1.7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="findbugs.report.dir" value="docs/findbugs-results" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all-in-one" />
+
+      </properties>
+
+      <testcase classname="net.guilhermelacerda.tests.Rot47CipherStrategyTest" name="shouldReturnTest" time="0.0" />
+
+      <testcase classname="net.guilhermelacerda.tests.Rot47CipherStrategyTest" name="shouldReturnE6de" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Note-Dell" id="4" name="VigenereCipherStrategyTest" package="net.guilhermelacerda.tests" tests="2" time="0.01" timestamp="2013-09-30T19:01:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="checkstyle.conventions.dir" value="lib/conventions" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sonar.jacoco.reportPath" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="sun.boot.class.path" value="C:\jdk1.7\jre\lib\resources.jar;C:\jdk1.7\jre\lib\rt.jar;C:\jdk1.7\jre\lib\sunrsasign.jar;C:\jdk1.7\jre\lib\jsse.jar;C:\jdk1.7\jre\lib\jce.jar;C:\jdk1.7\jre\lib\charsets.jar;C:\jdk1.7\jre\lib\jfr.jar;C:\jdk1.7\jre\classes" />
+
+          <property name="findbugs.home" value="c:/findbugs" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sonar.dir" value="docs/sonar" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant" />
+
+          <property name="java.runtime.version" value="1.7.0_11-b21" />
+
+          <property name="sonar.core.codeCoveragePlugin" value="jacoco" />
+
+          <property name="javancss.report.dir" value="docs/javancss-results" />
+
+          <property name="sonar.core.codecoverage" value="jacoco" />
+
+          <property name="sonar.jdbc.password" value="sonar" />
+
+          <property name="user.name" value="Guilherme" />
+
+          <property name="sonar.surefire.reportsPath" value="docs/junitreport" />
+
+          <property name="ant.file.Ciphers_Refactored" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="sonar.jdbc.user" value="sonar" />
+
+          <property name="user.language" value="pt" />
+
+          <property name="test.report.dir" value="docs/junitreport" />
+
+          <property name="sun.boot.library.path" value="C:\jdk1.7\jre\bin" />
+
+          <property name="ant.project.default-target" value="all-in-one" />
+
+          <property name="checkstyle.report.dir" value="docs/conventions" />
+
+          <property name="ant.project.name" value="Ciphers_Refactored" />
+
+          <property name="java.version" value="1.7.0_11" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="jacoco.report.dir" value="docs/coverage_jacoco/" />
+
+          <property name="sonar.host.url" value="http://localhost:9000" />
+
+          <property name="java.endorsed.dirs" value="C:\jdk1.7\jre\lib\endorsed" />
+
+          <property name="sonar.jdbc.username" value="sonar" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="jcsc.rules.dir" value="lib/jcsc-rules" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="BR" />
+
+          <property name="java.home" value="C:\jdk1.7\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file.type.Ciphers_Refactored" value="file" />
+
+          <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="23.6-b04" />
+
+          <property name="jcsc.report.dir" value="docs/jcsc-results" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib" />
+
+          <property name="sonar.jdbc.driver" value="com.mysql.jdbc.Driver" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="suite.tests" value="net.guilhermelacerda.tests.AllTests" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Guilherme" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="src" />
+
+          <property name="java.library.path" value="C:\jdk1.7\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\bin\..\.\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;;C:\jdk1.7\bin;C:\xampp\php;c:\ant\bin;c:\maven\bin;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Users\Guilherme\AppData\Local\Smartbar\Application\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;c:\program files (x86)\jetbrains\intellij idea community edition 12.1\jre\jre\bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="bin.dir" value="out" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="java.class.path" value="C:\JavaApps\IntelliJ\Ciphers_Refactored\out;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\JCSC.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ant-junit4.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\asm-3.2.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\ccl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\checkstyle-5.5-all.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\emma_ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\findbugs-ant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\gnu-regexp.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoagent.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jacocoant.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javacc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\javancss.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jaxen-1.1.1.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\jhbasic.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\junit-4.9.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.agent-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.ant-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.core-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\org.jacoco.report-0.5.9.201207300726.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\pmd-5.0.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\serializer.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\sonar-ant-task-1.0.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xalan.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xercesImpl.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xml-apis.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored\lib\xsltc.jar;C:\JavaApps\IntelliJ\Ciphers_Refactored;c:\jdk1.7\jars;c:\pmd\lib;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant-junit.jar;C:\Users\GUILHE~1\AppData\Local\Temp\jacocoagent2836663175283287297.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junittestcases4910071616260954608.properties filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JavaApps\IntelliJ\Ciphers_Refactored\docs\junitreport\IGNORETHIS.xml crashfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junitvmwatcher7750659676146689968.properties propsfile=C:\JavaApps\IntelliJ\Ciphers_Refactored\junit7980038219306604136.properties" />
+
+          <property name="jacoco.file" value="docs/coverage_jacoco/jacoco.exec" />
+
+          <property name="test.report.html.dir" value="docs/junitreport/html" />
+
+          <property name="pmd.ruleset.file" value="lib/pmd-rules/all-java.xml" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="pmd.report.dir" value="docs/code-analysis" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sonar.dynamic.analysis" value="reuseReports" />
+
+          <property name="java.io.tmpdir" value="C:\Users\GUILHE~1\AppData\Local\Temp\" />
+
+          <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;amp;characterEncoding=utf8" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="sonar.dynamicAnalysis" value="reuseReports" />
+
+          <property name="java.ext.dirs" value="C:\jdk1.7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\JavaApps\IntelliJ\Ciphers_Refactored" />
+
+          <property name="findbugs.report.dir" value="docs/findbugs-results" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.1\lib\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all-in-one" />
+
+      </properties>
+
+      <testcase classname="net.guilhermelacerda.tests.VigenereCipherStrategyTest" name="shouldReturnTest" time="0.001" />
+
+      <testcase classname="net.guilhermelacerda.tests.VigenereCipherStrategyTest" name="shouldReturnMikm" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

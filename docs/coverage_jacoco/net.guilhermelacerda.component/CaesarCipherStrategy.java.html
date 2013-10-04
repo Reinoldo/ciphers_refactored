@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CaesarCipherStrategy.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="right"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo Code Coverage</a> &gt; <a href="index.html" class="el_package">net.guilhermelacerda.component</a> &gt; <span class="el_source">CaesarCipherStrategy.java</span></div><h1>CaesarCipherStrategy.java</h1><pre class="source lang-java linenums">package net.guilhermelacerda.component;
+
+public class CaesarCipherStrategy extends CipherStrategy {
+    private static final int ALPHABET_LETTERS = 26;
+    private static final int SHIFT = 3;
+    private CipherType ct;
+
+    public CaesarCipherStrategy(Cipher cipher) {
+<span class="fc" id="L9">        super(cipher);</span>
+<span class="fc" id="L10">    }</span>
+
+    private void setCipherType(CipherType ct) {
+<span class="fc" id="L13">        this.ct = ct;</span>
+<span class="fc" id="L14">    }</span>
+
+    private CipherType getCipherType() {
+<span class="fc" id="L17">        return ct;</span>
+    }
+
+    public String encode() {
+<span class="fc" id="L21">        setCipherType(CipherType.CRIPT);</span>
+<span class="fc" id="L22">        return doRotate();</span>
+    }
+
+    public String decode() {
+<span class="fc" id="L26">        setCipherType(CipherType.DECRIPT);</span>
+<span class="fc" id="L27">        return doRotate();</span>
+    }
+
+    protected String doRotate() {
+<span class="fc" id="L31">        char[] msgLetters = getCipher().getMessageToChar();</span>
+
+<span class="fc bfc" id="L33" title="All 2 branches covered.">        for (int position = 0; position &lt; msgLetters.length; position++) {</span>
+<span class="fc" id="L34">            getCipher().setAsciiCode(msgLetters[position]);</span>
+<span class="pc bpc" id="L35" title="1 of 2 branches missed.">            char letter = ((isAlphabetLetter()) ? rotate()	: msgLetters[position]);</span>
+<span class="fc" id="L36">            getCipher().addLetter(letter, position);</span>
+        }
+
+<span class="fc" id="L39">        return getCipher().toString();</span>
+    }
+
+    private boolean isAlphabetLetter() {
+<span class="pc bpc" id="L43" title="2 of 4 branches missed.">        return getCipher().getAsciiCode() &gt;= 'a' &amp;&amp; getCipher().getAsciiCode() &lt;= 'z';</span>
+    }
+
+    private char rotate() {
+<span class="fc bfc" id="L47" title="All 2 branches covered.">        return (char) (getCipherType() == CipherType.CRIPT ? cript() : decript());</span>
+    }
+
+    private int cript() {
+<span class="pc bpc" id="L51" title="1 of 2 branches missed.">        return (getCipher().getAsciiCode() + SHIFT &lt;= 'w') ?</span>
+                (getCipher().getAsciiCode() + SHIFT) :
+                (getCipher().getAsciiCode()	- ALPHABET_LETTERS + SHIFT);
+    }
+
+    private int decript() {
+<span class="pc bpc" id="L57" title="2 of 4 branches missed.">        return (getCipher().getAsciiCode() &gt;= 'd' &amp;&amp; getCipher().getAsciiCode() &lt;= 'w') ?</span>
+                (getCipher().getAsciiCode() - SHIFT) :
+                (ALPHABET_LETTERS + getCipher().getAsciiCode() - SHIFT);
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.5.9.201207300726</span></div></body></html>

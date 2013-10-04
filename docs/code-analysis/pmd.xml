@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.0" timestamp="2013-09-30T16:01:33.496">
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\CaesarCipherStrategy.java">
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="25" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="43" endcolumn="44" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="setCipherType" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="12" endline="12" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="setCipherType" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ct' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" variable="msgLetters" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgLetters' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="29" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="35" endline="35" begincolumn="13" endcolumn="87" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" variable="letter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'letter' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="27" endcolumn="87" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="35" endline="35" begincolumn="28" endcolumn="86" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="35" endline="35" begincolumn="29" endcolumn="46" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="39" endline="39" begincolumn="16" endcolumn="37" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="43" endline="43" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="isAlphabetLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="43" endline="43" begincolumn="53" endcolumn="78" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="isAlphabetLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="16" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="17" endcolumn="57" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="52" endline="52" begincolumn="17" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="52" endline="52" begincolumn="18" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="52" endline="52" begincolumn="18" endcolumn="51" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="75" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="18" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="18" endcolumn="74" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="57" endline="57" begincolumn="16" endcolumn="87" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="16" endcolumn="87" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="54" endcolumn="79" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="86" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="58" endline="58" begincolumn="17" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="58" endline="58" begincolumn="18" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="58" endline="58" begincolumn="18" endcolumn="51" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="59" endline="59" begincolumn="17" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="59" endline="59" begincolumn="37" endcolumn="62" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="59" endline="59" begincolumn="18" endcolumn="70" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\Cipher.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="Cipher" variable="cipheredMsg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="27" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="net.guilhermelacerda.component" class="Cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'setMessage' called during object construction
+</violation>
+<violation beginline="16" endline="16" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="setMessage" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="27" rule="MethodReturnsInternalArray" ruleset="Security Code Guidelines" package="net.guilhermelacerda.component" class="Cipher" method="getCipheredMsg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/sunsecure.html#MethodReturnsInternalArray" priority="3">
+Returning 'cipheredMsg' may expose an internal array.
+</violation>
+<violation beginline="29" endline="29" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="setAsciiCode" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'asciiCode' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="addLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="40" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="addLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="35" begincolumn="9" endcolumn="86" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="Cipher" method="addLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="39" endline="39" begincolumn="31" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="getLetterFrom" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="41" begincolumn="9" endcolumn="86" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="Cipher" method="getLetterFrom" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="46" endline="46" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="Cipher" method="getMessageToChar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="toString" variable="msg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="52" endline="53" begincolumn="9" endcolumn="44" rule="ForLoopsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="Cipher" method="toString" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#ForLoopsMustUseBraces" priority="3">
+Avoid using for statements without curly braces
+</violation>
+<violation beginline="53" endline="53" begincolumn="13" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="Cipher" method="toString" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="13" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="Cipher" method="toString" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\CipherFactory.java">
+<violation beginline="7" endline="7" begincolumn="47" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createCaesar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="46" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createRot13" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="46" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createRot47" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="61" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="49" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\CipherStrategy.java">
+<violation beginline="3" endline="23" begincolumn="17" endcolumn="1" rule="AbstractNaming" ruleset="Naming" package="net.guilhermelacerda.component" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#AbstractNaming" priority="3">
+Abstract classes should be named AbstractXXX
+</violation>
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="CipherStrategy" variable="cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="25" rule="ImmutableField" ruleset="Design" package="net.guilhermelacerda.component" class="CipherStrategy" variable="cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ImmutableField" priority="3">
+Private field 'cipher' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="6" endline="6" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\Rot13CipherStrategy.java">
+<violation beginline="6" endline="6" begincolumn="35" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Rot13CipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\Rot47CipherStrategy.java">
+<violation beginline="6" endline="6" begincolumn="35" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Rot47CipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\RotCipherStrategy.java">
+<violation beginline="3" endline="52" begincolumn="17" endcolumn="1" rule="AbstractNaming" ruleset="Naming" package="net.guilhermelacerda.component" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#AbstractNaming" priority="3">
+Abstract classes should be named AbstractXXX
+</violation>
+<violation beginline="5" endline="5" begincolumn="19" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="RotCipherStrategy" variable="elements" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="5" endline="5" begincolumn="19" endcolumn="26" rule="ImmutableField" ruleset="Design" package="net.guilhermelacerda.component" class="RotCipherStrategy" variable="elements" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ImmutableField" priority="3">
+Private field 'elements' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="RotCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" variable="msgLetters" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgLetters' could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="29" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="78" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="78" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="42" endcolumn="67" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="28" endline="28" begincolumn="16" endcolumn="37" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="33" endline="34" begincolumn="13" endcolumn="34" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="33" endline="34" begincolumn="13" endcolumn="33" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="33" endline="34" begincolumn="13" endcolumn="33" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="33" endline="33" begincolumn="38" endcolumn="63" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="35" endline="36" begincolumn="14" endcolumn="78" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="77" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="77" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="36" endline="36" begincolumn="38" endcolumn="63" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="40" endline="40" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isFirstPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="41" endline="41" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isFirstPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="45" endline="45" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isSecondPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isSecondPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="28" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="getElement" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\VigenereCipherStrategy.java">
+<violation beginline="5" endline="5" begincolumn="24" endcolumn="25" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="5" endline="5" begincolumn="24" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="53" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="19" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'setKey' called during object construction
+</violation>
+<violation beginline="20" endline="20" begincolumn="24" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="setKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="43" endcolumn="44" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="setCipherType" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="24" endline="24" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="setCipherType" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ct' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="32" endcolumn="69" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="45" endcolumn="68" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="16" endcolumn="37" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="withoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'withoutSpaces' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="32" endcolumn="55" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="54" endline="62" begincolumn="16" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="newKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'newKey' (lines '54'-'62').
+</violation>
+<violation beginline="54" endline="54" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="newKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'newKey' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="43" endcolumn="64" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="57" endline="57" begincolumn="13" endcolumn="59" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="msgLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgLetter' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="30" endcolumn="59" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="58" endline="58" begincolumn="13" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="keyLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keyLetter' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="60" endline="60" begincolumn="13" endcolumn="92" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="33" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" variable="withoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'withoutSpaces' could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="13" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" variable="letter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'letter' could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="27" endcolumn="29" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="68" endline="69" begincolumn="13" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="31" rule="LongVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenKeyWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like lenKeyWithoutSpaces
+</violation>
+<violation beginline="77" endline="77" begincolumn="9" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenKeyWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lenKeyWithoutSpaces' could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="35" endcolumn="65" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="78" endline="91" begincolumn="13" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="position" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'position' (lines '78'-'91').
+</violation>
+<violation beginline="79" endline="79" begincolumn="13" endcolumn="35" rule="LongVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenMessageWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like lenMessageWithoutSpaces
+</violation>
+<violation beginline="79" endline="79" begincolumn="9" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenMessageWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lenMessageWithoutSpaces' could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="39" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="79" endline="79" begincolumn="39" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="80" endline="80" begincolumn="9" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="count" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'count' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="newKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'newKey' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="13" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="84" endline="84" begincolumn="27" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="84" endline="84" begincolumn="13" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="86" endline="87" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="87" endline="91" begincolumn="17" endcolumn="28" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="position" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'position' (lines '87'-'91').
+</violation>
+<violation beginline="90" endline="90" begincolumn="16" endcolumn="32" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="93" endline="93" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="94" endline="95" begincolumn="34" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" variable="factor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'factor' (lines '94'-'95').
+</violation>
+<violation beginline="94" endline="96" begincolumn="34" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" variable="factor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'factor' (lines '94'-'96').
+</violation>
+<violation beginline="95" endline="95" begincolumn="9" endcolumn="58" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="95" endline="96" begincolumn="34" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" variable="factor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'factor' (lines '95'-'96').
+</violation>
+<violation beginline="96" endline="96" begincolumn="9" endcolumn="58" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="101" endline="101" begincolumn="33" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="isUpperCase" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="33" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="isLowerCase" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="60" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'keyLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="44" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msgLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" variable="msgFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgFactor' could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="9" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" variable="keyFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keyFactor' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="55" endcolumn="68" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'keyLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="39" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msgLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="54" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'keyFactor' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="39" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msgFactor' is not assigned and could be declared final
+</violation>
+<violation beginline="119" endline="122" begincolumn="13" endcolumn="54" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" variable="result" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '119'-'122').
+</violation>
+<violation beginline="119" endline="126" begincolumn="13" endcolumn="54" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" variable="result" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '119'-'126').
+</violation>
+<violation beginline="123" endline="124" begincolumn="13" endcolumn="43" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="127" endline="128" begincolumn="13" endcolumn="43" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\AllTests.java">
+<violation beginline="11" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="net.guilhermelacerda.tests" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\CaesarCipherStrategyTest.java">
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnWhvw" variable="caesar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'caesar' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnWhvw" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="13" endline="13" begincolumn="30" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnWhvw" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnTest" variable="caesar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'caesar' could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\CipherTest.java">
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="20" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.tests" class="CipherTest" variable="c" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.tests" class="CipherTest" variable="c" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CipherTest" method="testGetMessage" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CipherTest" method="testGetAsciiCode" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="33" endline="33" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CipherTest" method="testAddAndGetLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\Rot13CipherStrategyTest.java">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnGrfg" variable="rot13" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot13' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnGrfg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnGrfg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnTest" variable="rot13" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot13' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\Rot47CipherStrategyTest.java">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnE6de" variable="rot47" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot47' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnE6de" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnE6de" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnTest" variable="rot47" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot47' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\VigenereCipherStrategyTest.java">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" variable="vigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'vigenere' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="64" endcolumn="69" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" externalInfoUrl="http://pmd.sourceforge.net/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;test&quot; appears 4 times in this file; the first occurrence is on line 13
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="53" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnTest" variable="vigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'vigenere' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="30" endcolumn="53" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\CaesarCipherStrategy.java">
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="25" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="43" endcolumn="44" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="setCipherType" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="12" endline="12" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="setCipherType" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ct' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" variable="msgLetters" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgLetters' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="29" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="35" endline="35" begincolumn="13" endcolumn="87" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" variable="letter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'letter' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="27" endcolumn="87" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="35" endline="35" begincolumn="28" endcolumn="86" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="35" endline="35" begincolumn="29" endcolumn="46" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="39" endline="39" begincolumn="16" endcolumn="37" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="43" endline="43" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="isAlphabetLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="43" endline="43" begincolumn="53" endcolumn="78" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="isAlphabetLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="16" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="17" endcolumn="57" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="52" endline="52" begincolumn="17" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="52" endline="52" begincolumn="18" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="52" endline="52" begincolumn="18" endcolumn="51" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="75" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="18" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="18" endcolumn="74" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="cript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="57" endline="57" begincolumn="16" endcolumn="87" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="16" endcolumn="87" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="54" endcolumn="79" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="86" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="58" endline="58" begincolumn="17" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="58" endline="58" begincolumn="18" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="58" endline="58" begincolumn="18" endcolumn="51" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="59" endline="59" begincolumn="17" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="59" endline="59" begincolumn="37" endcolumn="62" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="59" endline="59" begincolumn="18" endcolumn="70" rule="UselessParentheses" ruleset="Unnecessary" package="net.guilhermelacerda.component" class="CaesarCipherStrategy" method="decript" externalInfoUrl="http://pmd.sourceforge.net/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\Cipher.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="Cipher" variable="cipheredMsg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="27" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="net.guilhermelacerda.component" class="Cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'setMessage' called during object construction
+</violation>
+<violation beginline="16" endline="16" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="setMessage" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="27" rule="MethodReturnsInternalArray" ruleset="Security Code Guidelines" package="net.guilhermelacerda.component" class="Cipher" method="getCipheredMsg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/sunsecure.html#MethodReturnsInternalArray" priority="3">
+Returning 'cipheredMsg' may expose an internal array.
+</violation>
+<violation beginline="29" endline="29" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="setAsciiCode" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'asciiCode' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="addLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="40" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="addLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="35" begincolumn="9" endcolumn="86" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="Cipher" method="addLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="39" endline="39" begincolumn="31" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="getLetterFrom" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="41" begincolumn="9" endcolumn="86" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="Cipher" method="getLetterFrom" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="46" endline="46" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="Cipher" method="getMessageToChar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="51" endline="51" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Cipher" method="toString" variable="msg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="52" endline="53" begincolumn="9" endcolumn="44" rule="ForLoopsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="Cipher" method="toString" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#ForLoopsMustUseBraces" priority="3">
+Avoid using for statements without curly braces
+</violation>
+<violation beginline="53" endline="53" begincolumn="13" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="Cipher" method="toString" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="13" endcolumn="43" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="Cipher" method="toString" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\CipherFactory.java">
+<violation beginline="7" endline="7" begincolumn="47" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createCaesar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="46" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createRot13" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="46" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createRot47" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="61" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="49" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherFactory" method="createVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\CipherStrategy.java">
+<violation beginline="3" endline="23" begincolumn="17" endcolumn="1" rule="AbstractNaming" ruleset="Naming" package="net.guilhermelacerda.component" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#AbstractNaming" priority="3">
+Abstract classes should be named AbstractXXX
+</violation>
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="CipherStrategy" variable="cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="25" rule="ImmutableField" ruleset="Design" package="net.guilhermelacerda.component" class="CipherStrategy" variable="cipher" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ImmutableField" priority="3">
+Private field 'cipher' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="6" endline="6" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="CipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\Rot13CipherStrategy.java">
+<violation beginline="6" endline="6" begincolumn="35" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Rot13CipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\Rot47CipherStrategy.java">
+<violation beginline="6" endline="6" begincolumn="35" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="Rot47CipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\RotCipherStrategy.java">
+<violation beginline="3" endline="52" begincolumn="17" endcolumn="1" rule="AbstractNaming" ruleset="Naming" package="net.guilhermelacerda.component" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#AbstractNaming" priority="3">
+Abstract classes should be named AbstractXXX
+</violation>
+<violation beginline="5" endline="5" begincolumn="19" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="RotCipherStrategy" variable="elements" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="5" endline="5" begincolumn="19" endcolumn="26" rule="ImmutableField" ruleset="Design" package="net.guilhermelacerda.component" class="RotCipherStrategy" variable="elements" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ImmutableField" priority="3">
+Private field 'elements' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="RotCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" variable="msgLetters" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgLetters' could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="29" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="78" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="78" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="42" endcolumn="67" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="28" endline="28" begincolumn="16" endcolumn="37" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="33" endline="34" begincolumn="13" endcolumn="34" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="33" endline="34" begincolumn="13" endcolumn="33" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="33" endline="34" begincolumn="13" endcolumn="33" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="33" endline="33" begincolumn="38" endcolumn="63" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="35" endline="36" begincolumn="14" endcolumn="78" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="77" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="77" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="36" endline="36" begincolumn="38" endcolumn="63" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="rotatePart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="40" endline="40" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isFirstPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="41" endline="41" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isFirstPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="45" endline="45" begincolumn="16" endcolumn="41" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isSecondPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="17" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="isSecondPart" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="28" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="RotCipherStrategy" method="getElement" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\component\VigenereCipherStrategy.java">
+<violation beginline="5" endline="5" begincolumn="24" endcolumn="25" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="5" endline="5" begincolumn="24" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="38" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cipher' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="53" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="19" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'setKey' called during object construction
+</violation>
+<violation beginline="20" endline="20" begincolumn="24" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="setKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="43" endcolumn="44" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="setCipherType" variable="ct" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ct
+</violation>
+<violation beginline="24" endline="24" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="setCipherType" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ct' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="32" endcolumn="69" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="46" endline="46" begincolumn="45" endcolumn="68" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="16" endcolumn="37" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="doRotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="withoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'withoutSpaces' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="32" endcolumn="55" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="54" endline="62" begincolumn="16" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="newKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'newKey' (lines '54'-'62').
+</violation>
+<violation beginline="54" endline="54" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="newKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'newKey' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="43" endcolumn="64" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="57" endline="57" begincolumn="13" endcolumn="59" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="msgLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgLetter' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="30" endcolumn="59" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="58" endline="58" begincolumn="13" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" variable="keyLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keyLetter' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="60" endline="60" begincolumn="13" endcolumn="92" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="rotate" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="33" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="9" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" variable="withoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'withoutSpaces' could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="13" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" variable="letter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'letter' could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="27" endcolumn="29" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="68" endline="69" begincolumn="13" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="removeSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="31" rule="LongVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenKeyWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like lenKeyWithoutSpaces
+</violation>
+<violation beginline="77" endline="77" begincolumn="9" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenKeyWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lenKeyWithoutSpaces' could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="35" endcolumn="65" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="78" endline="91" begincolumn="13" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="position" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'position' (lines '78'-'91').
+</violation>
+<violation beginline="79" endline="79" begincolumn="13" endcolumn="35" rule="LongVariable" ruleset="Naming" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenMessageWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like lenMessageWithoutSpaces
+</violation>
+<violation beginline="79" endline="79" begincolumn="9" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="lenMessageWithoutSpaces" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lenMessageWithoutSpaces' could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="39" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="79" endline="79" begincolumn="39" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="80" endline="80" begincolumn="9" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="count" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'count' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="newKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'newKey' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="13" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="84" endline="84" begincolumn="27" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="84" endline="84" begincolumn="13" endcolumn="52" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="86" endline="87" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="87" endline="91" begincolumn="17" endcolumn="28" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" variable="position" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'position' (lines '87'-'91').
+</violation>
+<violation beginline="90" endline="90" begincolumn="16" endcolumn="32" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="generateNewKey" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="93" endline="93" begincolumn="27" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="94" endline="95" begincolumn="34" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" variable="factor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'factor' (lines '94'-'95').
+</violation>
+<violation beginline="94" endline="96" begincolumn="34" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" variable="factor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'factor' (lines '94'-'96').
+</violation>
+<violation beginline="95" endline="95" begincolumn="9" endcolumn="58" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="95" endline="96" begincolumn="34" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" variable="factor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'factor' (lines '95'-'96').
+</violation>
+<violation beginline="96" endline="96" begincolumn="9" endcolumn="58" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="101" endline="101" begincolumn="33" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="isUpperCase" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="33" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="isLowerCase" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'letter' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="60" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'keyLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="44" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msgLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" variable="msgFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msgFactor' could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="9" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="getLetterFromGridVigenere" variable="keyFactor" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keyFactor' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="55" endcolumn="68" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'keyLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="39" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msgLetter' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="54" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'keyFactor' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="39" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'msgFactor' is not assigned and could be declared final
+</violation>
+<violation beginline="119" endline="122" begincolumn="13" endcolumn="54" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" variable="result" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '119'-'122').
+</violation>
+<violation beginline="119" endline="126" begincolumn="13" endcolumn="54" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" variable="result" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '119'-'126').
+</violation>
+<violation beginline="123" endline="124" begincolumn="13" endcolumn="43" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="127" endline="128" begincolumn="13" endcolumn="43" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.guilhermelacerda.component" class="VigenereCipherStrategy" method="calculateGridPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\AllTests.java">
+<violation beginline="11" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="net.guilhermelacerda.tests" externalInfoUrl="http://pmd.sourceforge.net/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\CaesarCipherStrategyTest.java">
+<violation beginline="12" endline="12" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnWhvw" variable="caesar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'caesar' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnWhvw" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="13" endline="13" begincolumn="30" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnWhvw" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnTest" variable="caesar" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'caesar' could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="CaesarCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\CipherTest.java">
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="20" rule="ShortVariable" ruleset="Naming" package="net.guilhermelacerda.tests" class="CipherTest" variable="c" externalInfoUrl="http://pmd.sourceforge.net/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="net.guilhermelacerda.tests" class="CipherTest" variable="c" externalInfoUrl="http://pmd.sourceforge.net/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CipherTest" method="testGetMessage" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CipherTest" method="testGetAsciiCode" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="33" endline="33" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="CipherTest" method="testAddAndGetLetter" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\Rot13CipherStrategyTest.java">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnGrfg" variable="rot13" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot13' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnGrfg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnGrfg" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnTest" variable="rot13" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot13' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot13CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\Rot47CipherStrategyTest.java">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnE6de" variable="rot47" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot47' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnE6de" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnE6de" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnTest" variable="rot47" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rot47' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="30" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="Rot47CipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\JavaApps\IntelliJ\Ciphers_Refactored\src\net\guilhermelacerda\tests\VigenereCipherStrategyTest.java">
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" variable="vigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'vigenere' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="64" endcolumn="69" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" externalInfoUrl="http://pmd.sourceforge.net/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;test&quot; appears 4 times in this file; the first occurrence is on line 13
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="53" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnMikm" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnTest" variable="vigenere" externalInfoUrl="http://pmd.sourceforge.net/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'vigenere' could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="9" endcolumn="20" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="30" endcolumn="53" rule="LawOfDemeter" ruleset="Coupling" package="net.guilhermelacerda.tests" class="VigenereCipherStrategyTest" method="shouldReturnTest" externalInfoUrl="http://pmd.sourceforge.net/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+</pmd>
